@@ -1,0 +1,8 @@
+@function color($background){
+    @if(lightness($background) > 50){
+        @return #000;
+    }
+    @else{
+        @return #fff;
+    }
+}
